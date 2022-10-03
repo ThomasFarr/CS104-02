@@ -9,7 +9,7 @@ howMany = int(input("How many test scored would you like to average? "))
 
 while howManyEntered < howMany:
     testScore = int(input("Enter test score: "))
-    total = total + testScore
+    total += testScore
     howManyEntered += 1
 
 average = total / howMany
